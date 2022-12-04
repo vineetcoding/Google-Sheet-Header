@@ -6,7 +6,7 @@ function clickOnNav (){
     console.log("clicked")
     // console.log(nav.childNodes.style.display='block');
     // console.log(e.target);
-    navItem.style.display = 'block';
+    nav.style.display = 'block';
 }
 
 navLine.addEventListener('click', clickOnNav);

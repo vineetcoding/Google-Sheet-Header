@@ -86,11 +86,11 @@ a{
     color: white;
     cursor: pointer;
 }
-/* .nav{
+.nav{
     display: none;
-} */
+}
 .navItem{
-    display: none;
+    /* display: none; */
     /* display: block; */
     border: none;
     background-color: white;
@@ -98,7 +98,6 @@ a{
     color: blue;
     font-size: 100%;
     width: 50%;
-    margin: 40%;
     padding: 10%;
     /* margin-top: 10%; */
 }
