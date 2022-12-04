@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    border: 1px solid gainsboro;
+    display: flex;
+}
+i{
+    font-size: xxx-large;
+    padding: 1%;
+    color: blue;
+}
+.heading{
+    padding: 3%;
+}
+.btn{
+    padding: 1%;
+    margin: 3%;
+    border: white;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerOptions{
+    width: 30%;
+}
+.rightHeader{
+    width: 70%;
+}
+.input{
+    border: 1px solid gainsboro;
+    height: 35%;
+    width: 20%;
+    margin-left: 25%;
+}
+#circle{
+    color: aqua;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 250%;
+}
+.share{
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    padding: 1%;
+    font-size: 120%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.sign{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 1%;
+    font-size: 115%;
+    float: right;
+    margin: 3%;
+    margin-top: 4%;
+    cursor: pointer;
+}
+/* ============phone style====================== */
+
+.nav{
+    /* margin-top: 5%; */
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.navItem:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+/* .nav{
+    display: none;
+} */
+.navItem{
+    display: none;
+    /* display: block; */
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    font-size: 100%;
+    width: 50%;
+    margin: 40%;
+    padding: 10%;
+    /* margin-top: 10%; */
+}
+
+/* ================Responsive For Mobile============================ */
+
+@media only screen and (max-width:820px) {
+    .share, .btn, #circle, .heading, .input, #leftIcon{
+        display: none;
+    }
+    .sign{
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (min-width:820px){
+    .nav, #navLine{
+        display: none;
+    }
+    
+}

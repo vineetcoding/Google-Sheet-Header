@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet-Header</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="header">
+        <i id="navLine" class="fa-solid fa-bars"></i>
+        
+        <!--===================Laptop view======================== -->
+        
+        <i id="leftIcon" class="fa-solid fa-file"></i>
+        <div class="headerOptions">
+            <h2 class="heading">DSA Questions</h2>
+            <button id="file" class="btn">File</button>
+            <button id="edit" class="btn"><a href="#">Edit</a></button>
+            <button id="view" class="btn"><a href="#">View</a></button>
+            <button id="tools" class="btn"><a href="#">Tools</a></button>
+            <button id="help" class="btn"><a href="#">Help</a></button>
+       </div>
+       <div class="rightHeader">
+           <input class="input" placeholder="Request edit access"></input>
+            <i id="circle" class="fa-solid fa-circle"></i>
+            <button class="share">Share</button>
+            <button class="sign">Sign in</button>
+        </div>
+    </header>
+    
+    <!-- ==================Phone View====================== -->
+    <div class="nav">
+        <button id="file" class="navItem">File</button>
+        <button id="edit" class="navItem">Edit</button>
+        <button id="view" class="navItem">View</button>
+        <button id="tools" class="navItem">Tools</button>
+        <button id="help" class="navItem">Help</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
